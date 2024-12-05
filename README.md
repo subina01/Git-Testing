@@ -27,7 +27,7 @@ Suppose we created a new branch and added a new feature in that branch and now w
 
 - firstly, we may compare commits, branches, files and more using **git diff branchname** command.
 
--- Secondly, we may use github . We create a _PR(Pull Request) : which lets you tell others about the changes you 've pushed to a branch in a repository on a GitHub_.
+- Secondly, we may use github . We create a _PR(Pull Request) : which lets you tell others about the changes you 've pushed to a branch in a repository on a GitHub_.
 
 - When ever we want the changes in our remote repository in local repo we use _git pull origin main_.
 
