@@ -54,4 +54,30 @@ Fork is a rough copy
 
 ### Origin vs Upstream
 
-**Orign is a remote repository where our code is stored.** --- **Upstream is a main repository which keeps the latest update of the original repository which helps in coordination**
+| (Origin)            | (Upstream)                          |
+| ------------------- | ----------------------------------- |
+| Orign is a remote   | Upstream is a main repository where |
+| repository where    | we keep the latest update of the    |
+| our code is stored. | original repositorywhich helps in   |
+|                     | collaboration and contribution      |
+
+### Pull vs fetch
+
+| (Pull)                 | (Fetch)                           |
+| ---------------------- | --------------------------------- |
+| When we use the pull   | When we use the fetch command, it |
+| command, it downloads  | just downloads the changes from   |
+| as well as applies     | the remote repository to your     |
+| those changes from the | local repository but doesn't      |
+| remote repository to   | apply those changes to your code. |
+| your local repository. |                                   |
+
+### Merge vs Rebase
+
+| (Merge)                    | (Rebase)                      |
+| -------------------------- | ----------------------------- |
+| When we need to apply the  | Rebase moves the changes in a |
+| changes of other branches  | branch to the latest commit   |
+| to the working branch, we  | point.It changes the order of |
+| we use command \*git merge | commit. It merges the history |
+| branchname\*.              | into a single timeline.       |
